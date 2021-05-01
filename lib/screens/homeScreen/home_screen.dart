@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:order/animation/ScaleRoute.dart';
 import 'dart:convert';
 
 import 'package:order/data/loaddata.dart';
 import 'package:order/screens/SearchScreen/search_screen.dart';
 import 'package:order/screens/cart_screen.dart';
 import 'package:order/screens/restaurantScreen/restaurant_screen.dart';
+import 'package:order/screens/singin_screen/SignInPage.dart';
 
 import 'package:order/widgets/food_config.dart';
 import 'package:order/widgets/rating_stars.dart';
@@ -45,7 +48,16 @@ class _HomeScreenState extends State<HomeScreen> {
         toolbarHeight: 70,
         elevation: 0,
         leading: CircleAvatar(
-          child: Icon(Icons.person),
+          child: IconButton(
+            icon: FaIcon(FontAwesomeIcons.signInAlt),
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  ScaleRoute(
+                    page: SignInPage(),
+                  ));
+            },
+          ),
           backgroundColor: Colors.white,
         ),
         actions: <Widget>[
@@ -53,8 +65,8 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Badge(Collecting.of(context)!.card.length),
             onPressed: () => Navigator.push(
               context,
-              MaterialPageRoute(
-                builder: (_) => CartScreen(),
+              ScaleRoute(
+                page: CartScreen(),
               ),
             ),
           ),

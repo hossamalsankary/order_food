@@ -56,8 +56,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_svg",
+      "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-0.22.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "font_awesome_flutter",
+      "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-9.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -76,6 +88,24 @@
     {
       "name": "path",
       "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_drawing",
+      "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path_drawing-0.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_parsing",
+      "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path_parsing-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -134,13 +164,19 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "xml",
+      "rootUri": "file:///home/work/flutter_linux_1.22.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/xml-5.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "order",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-05-01T11:12:10.785666Z",
+  "generated": "2021-05-01T11:47:36.271004Z",
   "generator": "pub",
   "generatorVersion": "2.14.0-18.0.dev"
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:order/screens/cart_screen.dart';
 import 'package:order/screens/homeScreen/home_screen.dart';
+import 'package:order/screens/singin_screen/SignInPage.dart';
 import 'package:order/screens/welcom_screen.dart';
 import 'package:order/widgets/food_config.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Color(0xFFffffff),
           accentColor: Color(0xFFf0f0f0),
         ),
-        //home: HomeScreen(),
+        // home: SignInPage(),
         initialRoute: "welcome",
         routes: {
           "home": (_) => HomeScreen(),
