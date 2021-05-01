@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Color(0xFFffffff),
       appBar: AppBar(
-        toolbarHeight: 160,
+        toolbarHeight: 70,
         elevation: 0,
         leading: CircleAvatar(
           child: Icon(Icons.person),

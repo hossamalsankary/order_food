@@ -1,0 +1,4 @@
+#Sat May 01 13:13:11 EET 2021
+base.0=/home/work/AndroidStudioProjects/new/order_food/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
