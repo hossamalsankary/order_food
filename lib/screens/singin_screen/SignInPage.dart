@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:order/admin_screen/singin_screen/SignInPage.dart';
 import 'package:order/animation/ScaleRoute.dart';
 //import 'package:flutter_app/pages/FoodDetailsPage.dart';
 //import 'package:flutter_app/pages/SignUpPage.dart';
@@ -172,7 +173,7 @@ class _SignInPageState extends State<SignInPage> {
                         InkWell(
                           onTap: () => {
                             Navigator.push(
-                                context, ScaleRoute(page: SignUpPage()))
+                                context, ScaleRoute(page: SignUpForAdmin()))
                           },
                           child: Container(
                             child: Text(
